@@ -16,11 +16,19 @@ h1 {
     font-size: 40px;
 }
 
-h2, h3, nav a, nav span, menu li {
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+nav a, nav span, menu li, footer, #social li {
     font-size: 20px;
 }
 
-footer, p, dd, li, nav, input {
+p, dd, li, nav, input {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -67,6 +75,24 @@ dt {
 
     #start p {
         padding: 1em;
+        margin-bottom: 0;
+    }
+
+    #details {
+        background-color: #F2F2F2;
+    }
+
+    #details h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #details dl {
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        padding: 1em;
     }
 
 }
@@ -104,6 +130,24 @@ dt {
 
     #start p {
         padding: 1em;
+        margin-bottom: 0;
+    }
+
+    #details {
+        background-color: #F2F2F2;
+    }
+
+    #details h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #details dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        padding: 1em;
+        justify-items: center;
     }
 
 }
@@ -154,6 +198,72 @@ dt {
 
     #start p {
         padding: 1em;
+        margin-bottom: 0;
+    }
+
+    #details {
+        background-color: #0D0D0D;
+        color: #7ABFBF;
+    }
+
+    #details h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .item-1 {
+        grid-area: item-1;
+    }
+
+    .item-one {
+        grid-area: item-one;
+    }
+
+    .item-2 {
+        grid-area: item-2;
+    }
+
+    .item-two {
+        grid-area: item-two;
+    }
+
+    .item-3 {
+        grid-area: item-3;
+    }
+
+    .item-three {
+        grid-area: item-three;
+    }
+
+    .item-4 {
+        grid-area: item-4;
+    }
+
+    .item-four {
+        grid-area: item-four;
+    }
+
+    .item-5 {
+        grid-area: item-5;
+    }
+
+    .item-five {
+        grid-area: item-five;
+    }
+
+    #details dl {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template: 
+        "item-1 item-2 item-3 item-4 item-5"
+        "item-one item-two item-three item-four item-five";
+        justify-items: center;
+    }
+
+    #details dd {
+        margin: 0;
+        margin-bottom: 1em;
     }
 
 }
