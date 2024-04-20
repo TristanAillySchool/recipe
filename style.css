@@ -93,6 +93,20 @@ dt {
         grid-template-columns: 1fr 1fr;
         gap: 1em;
         padding: 1em;
+        margin: 0;
+    }
+
+    #ingredients {
+        background-color: #F2F2F2;
+    }
+
+    #ingredients h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #ingredients li {
+        margin: 1em;
     }
 
 }
@@ -148,6 +162,21 @@ dt {
         gap: 1em;
         padding: 1em;
         justify-items: center;
+        margin: 0;
+    }
+
+    #ingredients {
+        background-color: #F2F2F2;
+        width: 25%;
+    }
+
+    #ingredients h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #ingredients li {
+        margin: 1em;
     }
 
 }
@@ -259,11 +288,26 @@ dt {
         "item-1 item-2 item-3 item-4 item-5"
         "item-one item-two item-three item-four item-five";
         justify-items: center;
+        margin: 0;
     }
 
     #details dd {
         margin: 0;
         margin-bottom: 1em;
+    }
+
+    #ingredients {
+        background-color: #F2F2F2;
+        width: 20%;
+    }
+
+    #ingredients h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #ingredients li {
+        margin: 1em;
     }
 
 }
