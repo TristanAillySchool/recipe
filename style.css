@@ -243,6 +243,40 @@ dt {
         width: 250px;
         height: 40px;
     }
+
+    footer {
+        background-color: #fff;
+        text-align: center;
+    }
+
+    footer img {
+        height: 30%;
+        width: 30%;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 1em;
+    }
+
+    footer li {
+        display: flex;
+        flex-direction: column;
+        color: #EB5428;
+        list-style-type: none;
+        padding: 0.2em;
+        align-items: center;
+    }
+
+    footer p {
+        font-weight: bold;
+        margin: 0;
+    }
+
     
 
 }
@@ -458,6 +492,46 @@ dt {
         display: none;
     }
 
+    footer {
+        background-color: #fff;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .footer-imgs {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    footer img {
+        height: 100px;
+        width: 100px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 1em;
+    }
+
+    footer li {
+        display: flex;
+        flex-direction: column;
+        color: #EB5428;
+        list-style-type: none;
+        padding: 0.2em;
+        align-items: center;
+    }
+
+    footer p {
+        font-weight: bold;
+        margin: 0;
+    }
+
 }
 
 @media (min-width: 769px) {
@@ -497,7 +571,6 @@ dt {
 
     #start img {
         width: 50%;
-        position: block;
     }
 
     .p-flex {
@@ -738,6 +811,47 @@ dt {
         border-style: solid;
         width: 250px;
         height: 40px;
+    }
+
+    footer {
+        background-color: #fff;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .footer-imgs {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    footer img {
+        height: 150px;
+        width: 150px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 1em;
+    }
+
+    footer li {
+        display: flex;
+        flex-direction: column;
+        color: #EB5428;
+        list-style-type: none;
+        padding: 1em;
+        align-items: center;
+    }
+
+    footer p {
+        font-weight: bold;
+        margin: 0;
     }
 
 }
